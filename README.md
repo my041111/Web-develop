@@ -5,3 +5,5 @@
 ## 网站预览
 
 https://yangjh-xbmu.github.io/stackblitz-starters-udq8fm/
+
+![](images/publish.png)
