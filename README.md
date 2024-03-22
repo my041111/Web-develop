@@ -6,4 +6,3 @@
 
 https://yangjh-xbmu.github.io/stackblitz-starters-udq8fm/
 
-![](images/publish.png)
