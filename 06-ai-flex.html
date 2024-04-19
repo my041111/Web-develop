@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Centering Example</title>
+    <style>
+      /* 设置Flex容器 */
+      .flex-container {
+        display: flex; /* 启用Flex布局 */
+        justify-content:flex-end; /* 水平居中Flex项目 */
+        height: 200px; /* 容器的高度 */
+        background-color: #f2f2f2; /* 容器的背景颜色 */
+        padding: 10px; /* 容器的内边距 */
+      }
+
+      /* 设置Flex项目 */
+      .flex-item {
+        width: 100px; /* 项目的宽度 */
+        height: 100px; /* 项目的高度 */
+        background-color: #4caf50; /* 项目的背景颜色 */
+        text-align: center; /* 文本居中 */
+        line-height: 100px; /* 垂直居中文本 */
+        color: white; /* 文本颜色 */
+        margin: 10px; /* 项目的外边距 */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Flex容器 -->
+    <div class="flex-container">
+      <!-- Flex项目 -->
+      <div class="flex-item">Centered Item</div>
+      <div class="flex-item">Centered Item</div>
+    </div>
+  </body>
+</html>
