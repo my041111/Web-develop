@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      //   alert("这是来自脚本的爱！");
+      // 定义变量
+      let name = "小丽";
+      //   alert("你好，" + name);
+      // 定义常量
+      //   const dest = "火星";
+      let dest = "火星";
+      let home = "地球";
+      //   地点 = "火星";
+      //   alert(地点);
+      //   在控制台输出内容的方法
+      console.log(name, dest);
+      //   最基础的数据类型为数字和字符串
+      let age = 10;
+      console.log(typeof age, age);
+      console.log(typeof name, name);
+      //   定义js的字符串时，可以使用的方式有''或""或``
+      let country = `China`;
+      console.log(typeof country, country);
+      //   字符串的拼接
+      console.log(
+        "在China的小镇上，10岁的小丽对星空充满好奇。每当夜晚，她都会仰望星空，梦想着有一天能探索${dest}。她勤奋学习，终于成为一名宇航员。多年后，小丽站在${dest}上，回望蓝色的${home}，心中充满了激动和自豪。"
+      );
+      console.log(
+        "在" +
+          country +
+          "的小镇上，" +
+          age +
+          "的小丽对星空充满好奇。每当夜晚，她都会仰望星空，梦想着有一天能探索火星。她勤奋学习，终于成为一名宇航员。多年后，小丽站在火星上，回望蓝色的地球，心中充满了激动和自豪。"
+      );
+      dest = "K星";
+      //   home = "快乐星球";
+      country = "White Tiger Mounten";
+      age = 21;
+      console.log(
+        `在${country}的小镇上，${age}岁的${name}对星空充满好奇。每当夜晚，她都会仰望星空，梦想着有一天能探索火星。她勤奋学习，终于成为一名宇航员。多年后，${name}站在火星上，回望蓝色的地球，心中充满了激动和自豪。`
+      );
+      //   值的比较中有个完全相等，是需要了解的。
+      console.log(2 == "2");
+      console.log(2 === "2");
+      console.log(age > 12);
+      //   流程控制中的分支
+      //   if (age > 12) {
+      //     console.log("你再欺负别人，就抓你去踩缝纫机。");
+      //   } else {
+      //     console.log("我等你！");
+      //   }
+      if (age > 12) {
+        console.log("你再欺负别人，就抓你去踩缝纫机。");
+      } else if (age > 10) {
+        console.log("我等你！");
+      } else {
+        console.log("你还小，有的事你不懂。");
+      }
+      
+    </script>
+  </body>
+</html>
